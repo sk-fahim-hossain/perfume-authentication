@@ -1,0 +1,37 @@
+.cart-container{
+    margin: 20px auto;
+    width: 700px;
+    height:auto;
+    
+    box-shadow: 0 8px 10.5px 8.5px lightgrey;
+    border-radius:10px;
+    overflow: hidden;
+}
+.single-cart-item-img{
+   border: 1px solid grey;
+   border-radius:10px;
+   margin: 10px;
+   overflow: hidden;
+   display:flex;
+}
+.single-cart-item-img img{
+    width: 100px;
+    float: left;
+    margin: 20px;
+}
+.checkout-button{
+    padding: 5px 40px;
+    background: rgb(68, 124, 169);
+    border: 1px solid rgba(21, 34, 45, 0.087);
+    border-radius:20px;
+    float: right;
+    margin: 20px;
+}
+.checkout-button:hover{
+    background: white;
+    border: 1px solid rgb(8, 134, 237);
+    background: rgb(8, 134, 237);
+}
+.price{
+    margin-left:300px
+}
